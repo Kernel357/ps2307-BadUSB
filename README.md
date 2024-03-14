@@ -29,7 +29,10 @@ After that, go to the project folder and assemble the firmware with the command:
 The fw.bin file will appear in the ```..\Firmware\bin``` folder. You need to move this file to your ```..\Tools``` folder
 
 ### Flashing:
-Next, we close the contacts with one of the two options shown in the photographs Connect the device to the computer go to ..\Tools folder and let's check the device mode with the command:  
+Next, we close the contacts with one of the two options shown in the photographs: 
+![Variant 1](https://github.com/Kernel357/ps2307-BadUSB/blob/main/Docs%2FVar1.jpg)
+![Variant 2](https://github.com/Kernel357/ps2307-BadUSB/blob/main/Docs%2FVar2.jpg)
+Connect the device to the computer go to ..\Tools folder and let's check the device mode with the command:  
 ```.\DriveCom /drive=<Your device letter> /action=GetInfo```
 
 “BootMode” should appear in the “Mode” line. If everything is good, move on to the next step, if not, then try again.
